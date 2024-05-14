@@ -17,6 +17,8 @@ public class Main {
             case '2' -> new SquareCheckered(implementor);
             case '3' -> new Triangle(implementor);
             case '4' -> new TriangleInverse(implementor);
+            case '4' -> new TriangleInverse(implementor);
+            case '4' -> new TriangleInverse(implementor);
             default -> new SquareSolid(implementor);
         };
         System.out.println("Input a number (1 - Greet), (2 - printShape): ");
